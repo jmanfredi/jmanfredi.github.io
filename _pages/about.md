@@ -14,7 +14,7 @@ I am a Postdoctoral Scholar at the University of California Berkeley with [Betha
 
 I got my PhD in nuclear physics at Michigan State University with [Betty Tsang](https://people.nscl.msu.edu/~tsang/). Before that I went to Washington University in St. Louis, where I worked with [Lee Sobotka](https://artsci.wustl.edu/faculty-staff/lee-sobotka). 
 
-For more details, check out my CV. For my thoughts on non-physics topic, check out the blog.
+For more details, check out my CV. For my thoughts on non-physics topics, check out the blog.
 
 This website is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages.
 
