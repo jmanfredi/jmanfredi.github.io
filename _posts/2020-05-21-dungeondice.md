@@ -43,7 +43,7 @@ To answer the extra credit portion of the riddle, we need to figure out when rol
 
 ![diagram](/images/for-posts/dungeondice/comparison-all.png){:class="img-responsive"}
 
-Obviously, pure advantage and pure disadvantage are the best and worst, respectively, and are plotted for the sake of comparison. Like I said, we care about D20, DisAdv, and AdvDis. For the lowest rolls, DisAdv is the best approach, followed by AdvDis and D20. At \\( N = 9\\), D20 and AdvDis switch places. Then, above 13, rolling a normal D20 gives the best chance, followed by DisAdv and then D20.
+Obviously, pure advantage and pure disadvantage are the best and worst, respectively, and are plotted for the sake of comparison. Like I said, we care about D20, DisAdv, and AdvDis. For the lowest rolls, DisAdv is the best approach, followed by AdvDis and D20. At \\( N = 9\\), D20 and AdvDis switch places. Then, above 13, rolling a normal D20 gives the best chance, followed by DisAdv and then AdvDis. So although DisAdv has the highest expected roll, if you are trying to beat a high target number then the D20 is the best choice.
 
 Technical Details
 ------
