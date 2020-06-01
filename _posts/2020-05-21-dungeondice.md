@@ -21,9 +21,9 @@ But the DM giveth, and the DM taketh away. She can also give you *disadvantage*,
 
 The black numbers correspond to the results of D20 rolls. For each pair of rolls, we take advantage by selecting the higher number to get two green numbers. Finally, we take disadvantage by using the smaller of the two green numbers to get to the final red number. 
 
-This brings us to the riddle. What is the expected roll you get with either disadvantage of advantage (which I will refer to as DisAdv form now on) or advantage of disadvantage (AdvDis)? And what is the probability of each approach beating a specific target number, \\( N \\)?
+This brings us to the riddle. What is the expected roll you get with either disadvantage of advantage (which I will refer to as DisAdv form now on) or the analogously defined advantage of disadvantage (AdvDis)? And what is the probability of each approach beating a specific target number, \\( N \\)?
 
-Solving these questions exactly can be done using the concepts of probability density distributions and cumulative density distributions. However this is a question about dice rolling, and I choose to solve it by rolling the metaphorical dice in my computer. Rolling millions of D20s is simple
+Solving these questions exactly can be done using the concepts of probability density distributions and cumulative density distributions. However this is a question about dice rolling, and I choose to solve it by rolling the metaphorical dice in my computer. Rolling millions of D20s is a simple way to solve the problem with a high degree of precision. 
 
 The easiest place to start is with the D20 itself. If we roll it 1,000,000 times, then we should expect each of the 20 possible values to come up about equally often. That is exactly what is shown in the top panel of the figure below. Each blue dot is the probability (y-axis) of rolling each specific number \\( N \\) on the D20 (x-axis). The bottom panel is also a probability plot, but this time showing the chances of *beating* (rolling equal or greater to) any given \\( N \\). Unsurprisingly, beating a lower roll is more likely than beating a higher one.
 
@@ -43,7 +43,9 @@ To answer the extra credit portion of the riddle, we need to figure out when rol
 
 ![diagram](/images/for-posts/dungeondice/comparison-all.png){:class="img-responsive"}
 
-Obviously, pure advantage and pure disadvantage are the best and worst, respectively, and are plotted for the sake of comparison. Like I said, we care about D20, DisAdv, and AdvDis. For the lowest rolls, DisAdv is the best approach, followed by AdvDis and D20. At \\( N = 9\\), D20 and AdvDis switch places. Then, above 13, rolling a normal D20 gives the best chance, followed by DisAdv and then AdvDis. So although DisAdv has the highest expected roll, if you are trying to beat a high target number then the D20 is the best choice.
+Obviously, pure advantage and pure disadvantage are the best and worst, respectively, and are plotted for the sake of comparison. Like I said, we care about D20, DisAdv, and AdvDis. For the lowest rolls, DisAdv is the best approach, followed by AdvDis and D20. At \\( N = 9\\), D20 and AdvDis switch places. Then, for a target number at 13 or above, rolling a normal D20 gives the best chance to succeed, followed by DisAdv and then AdvDis. So although DisAdv has the highest expected roll, if you are trying to beat a high target number then the D20 is the superior option.
+
+In the end, of course, you just end up doing whatever the DM says anyways.
 
 Technical Details
 ------
