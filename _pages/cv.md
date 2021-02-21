@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-<object data="/files/CV_Oct2019.pdf#pagemode=none" width="1000" height="1000" type='application/pdf'/>
+<object data="/files/CV_Feb2021.pdf#pagemode=none" width="1000" height="1000" type='application/pdf'/>
